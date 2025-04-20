@@ -1,0 +1,161 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+header, footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #2ea9eb;
+    color: white;
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+h2 {
+    color: #333;
+}
+
+h3 {
+    color: #2ea9eb;
+    margin-top: 20px;
+}
+
+nav {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #2ea9eb;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #2ea9eb;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+.button {
+    display: inline-block;
+    background-color: #2ea9eb;
+    color: white;
+    padding: 8px 16px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #2ea9eb;
+}
+
+.button-secondary {
+    background-color: #808080;
+}
+
+.button-secondary:hover {
+    background-color: #666;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input[type="text"], 
+.form-group input[type="number"],
+.form-group input[type="email"],
+.form-group input[type="date"],
+.form-group input[type="time"],
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-group textarea {
+    height: 100px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.search-container {
+    margin: 20px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.search-container input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    width: 250px;
+}
+
+.search-container button {
+    padding: 8px 12px;
+    background-color: #2ea9eb;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #2ea9eb;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
