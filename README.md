@@ -5,7 +5,7 @@ maka saya tidak akan melakukan kecurangan sesuai yang telah di spesifikasikan, A
 
 # Desain Program
 
-![ERD TP 7](https://github.com/user-attachments/assets/09326c13-7514-44b1-bfee-84b0fa2cf00e)
+![ERD TP 7](https://github.com/user-attachments/assets/968beb08-bcc1-43cf-a019-03ca87ead8d1)
 
 Saya menggunakan tema klinik yang berisi 3 tabel, yaitu Pasien, Dokter, dan Appointment. Dalam tabel Pasien berisi atribut id(PK), nama, usia, alamat, dan telepon. Dalam tabel Dokter berisi atribut id(PK), nama, spesialisasi, jadwal_praktek, dan telepon. Dalam tabel Appointment terdapat atribut id(PK), pasien_id(FK), dokter_id(FK), tanggal, waktu, dan keluhan. pasien_id dan dokter_id pada tabel Appointment adalah foreign key dari tabel Pasien dan tabel Dokter.
 
